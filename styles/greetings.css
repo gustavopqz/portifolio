@@ -42,12 +42,13 @@
     transition: ease .2s;
     font-size: 1em;
     border-radius: 4px;
+    color: #008FFF;
 }
 
 #contact:hover{
     background-color: transparent;
-    color: #008FFF;
-    border-color: #008FFF;
+    color: #dddddd;
+    background-color: #008FFF;
 }
 
 #curriculum{
@@ -55,6 +56,14 @@
     width: 35%;
     background-color: transparent;
     cursor: pointer;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    transition: ease .4s;
+}
+
+#curriculum:hover{
+    background-color: #dddddd;
+    color: #171717;
 }
 
 #right-side{
