@@ -1,8 +1,12 @@
 #greeting{
     display: flex;
     align-items: center;
-    padding-inline: 10%;
+    padding-inline: 15%;
     justify-content: space-between;
+}
+
+#greeting .left-side{
+    padding-right: 10%;
 }
 
 #greeting .left-side h3{
@@ -72,8 +76,4 @@
     background-color: #dddddd;
     color: #171717;
     border-radius: 4px;
-}
-
-#greeting .right-side{
-    width: 65vh;
 }
