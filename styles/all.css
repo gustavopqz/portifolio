@@ -9,3 +9,10 @@
 body{
     background-color: #171717;
 }
+
+:root {
+    --myblue: #008FFF;
+    --myblack: #171717;
+    --myblack2: #232323;
+    --mygray: #dddddd;
+}

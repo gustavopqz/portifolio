@@ -1,0 +1,33 @@
+#enterprises{
+    background-color: #171717;
+    background-size: cover;
+    padding: 2em 10%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 5vw;
+}
+
+#enterprises .presentation h2{
+    color: var(--myblue);
+    text-align: end;
+    font-size: 3em;
+}
+
+#enterprises carousel{
+    display: flex;
+    gap: 1vw;
+}
+
+#enterprises carousel img{
+    width: 20vw;
+    border-radius: 10px;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: ease .3s;
+}
+
+#enterprises carousel img:hover{
+    filter: grayscale(0);
+}
+
