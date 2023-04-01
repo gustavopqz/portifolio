@@ -5,22 +5,22 @@
     justify-content: space-between;
 }
 
-#left-side h3{
+#greeting .left-side h3{
     color: #008FFF;
     font-size: 3em;
 }
 
-#left-side h1{
+#greeting .left-side h1{
     font-size: 4em;
     display: flex;
     gap: 1.5%;
 }
 
-#left-side h1 p{
+#greeting .left-side h1 p{
     color: #008FFF;
 }
 
-#left-side h2{
+#greeting .left-side h2{
     font-size: 2.3em;
     margin-top: 2%;
 }
@@ -66,6 +66,6 @@
     color: #171717;
 }
 
-#right-side{
-    width: 35%;
+#greeting .right-side{
+    width: 65vh;
 }

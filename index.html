@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/all.css">
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/greetings.css">
+    <link rel="stylesheet" href="styles/greeting.css">
+    <link rel="stylesheet" href="styles/about_me.css">
 
     <title>Gustavo Pasqua | Portifólio</title>
 </head>
@@ -28,7 +29,7 @@
     </header>
 
     <section id="greeting">
-        <article id="left-side">
+        <article class="left-side">
             <h3>Olá, meu nome é</h3>
             <h1>Gustavo <p>Pasqua</p></h1>
             <h2>Desenvolvedor Full Stack</h2>
@@ -37,7 +38,16 @@
                 <button id="contact">Entre em contato</button>
             </div>
         </article>
-        <img src="./images/developer.png" alt="developer" id="right-side">
+        <img src="./images/developer.png" alt="developer" class="right-side">
+    </section>
+
+    <section id="about_me">
+        <img id="pasqua" src="./images/pasqua_circular.png" alt="pasqua">
+        <article class="right-side">
+            <h2>Sobre mim</h2>
+            <p>Gustavo Pasqua de Queiroz, desenvolvedor Full Stack nascido em 1999.</p>
+            <p>Atualmente contratado pelo <b onclick="window.location.href = 'https:\/\/gruponobre.edu.br'">Grupo Nobre de Feira de Santana</b> agindo como desenvolvedor nas faculdades <b>UNEF</b> e <b id="unifan">UNIFAN</b>, nos colégios <b>Nobre</b> e <b>Maple Bear</b>, na <b>associação atlética do Bahia de Feira</b> e no grupo médico <b>União Médica.</b></p>
+        </article>
     </section>
 </body>
 </html>
