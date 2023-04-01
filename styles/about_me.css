@@ -28,12 +28,14 @@
     padding-bottom: 4vh;
     font-size: 3.5em;
     color: var(--myblue);
+    cursor: default;
 }
 
 #about_me .right-side p{
     font-size: 1.5em;
     margin-bottom: 1vh;
     line-height: 3vh;
+    cursor: default;
 }
 
 #about_me .right-side p b{

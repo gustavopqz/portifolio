@@ -1,5 +1,5 @@
 #enterprises{
-    background-color: #171717;
+    background-color: var(--myblack);
     background-size: cover;
     padding: 2em 10%;
     display: flex;
@@ -12,6 +12,7 @@
     color: var(--myblue);
     text-align: end;
     font-size: 3em;
+    cursor: default;
 }
 
 #enterprises carousel{
@@ -20,8 +21,11 @@
 }
 
 #enterprises carousel img{
-    width: 20vw;
-    border-radius: 10px;
+    max-width: 370px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 15px;
     cursor: pointer;
     filter: grayscale(100%);
     transition: ease .3s;
@@ -29,5 +33,6 @@
 
 #enterprises carousel img:hover{
     filter: grayscale(0);
+    border-radius: 10px;
 }
 
