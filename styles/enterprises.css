@@ -1,10 +1,9 @@
 #enterprises{
     background-color: var(--myblack);
     background-size: cover;
-    padding: 2em 10%;
+    padding: 2em 8%;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 5vw;
 }
 
@@ -15,24 +14,40 @@
     cursor: default;
 }
 
-#enterprises carousel{
+#carousel{
     display: flex;
-    gap: 1vw;
+    overflow: hidden;
+    border-radius: 10px;
+    max-width: 756px;
 }
 
-#enterprises carousel img{
+#carousel_slide{
+    display: flex;
+}
+
+#carousel img{
     max-width: 370px;
     border-top-left-radius: 10px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 15px;
     cursor: pointer;
-    filter: grayscale(100%);
+    filter: grayscale(70%);
     transition: ease .3s;
+    margin-right: 16px;
 }
 
-#enterprises carousel img:hover{
+#carousel img:hover{
     filter: grayscale(0);
     border-radius: 10px;
+}
+
+@media (max-width:1180px){
+    #enterprises{
+        flex-direction: column;
+    }
+    #carousel{
+        max-width: 370px;
+    }
 }
 

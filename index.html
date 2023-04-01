@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/about_me.css">
     <link rel="stylesheet" href="styles/enterprises.css">
 
+    <script src="./scripts/carousel.js" defer></script>
+
     <title>Gustavo Pasqua | Portifólio</title>
 </head>
 <body>
@@ -61,10 +63,18 @@
         <article class="presentation">
             <h2>Conheça as empresas a quem presto serviço!</h2>
         </article>
-        <carousel>
-            <img src="./images/unef.png" alt="unef">
-            <img src="./images/unifan.png" alt="unifan">
-        </carousel>
+        <div id="carousel">
+            <div id="carousel_slide">
+                <img src="./images/unef.png" alt="unef" id="last_clone">
+                <img src="./images/unifan.png" alt="unifan">
+                <img src="./images/tremendao.jpg" alt="bahia_de_feira" width="370px">
+                <img src="./images/uniao_med.jpg" alt="uniao_med" width="370px">
+                <img src="./images/colegio_nobre.png" alt="colegio_nobre" width="370px">
+                <img src="./images/maple_bear.jpg" alt="maple_bear" width="370px">
+                <img src="./images/unef.png" alt="unef2" id="first_clone">
+                <img src="./images/unifan.png" alt="unifan">
+            </div>
+        </div id="carousel">
     </section>
 </body>
 </html>
