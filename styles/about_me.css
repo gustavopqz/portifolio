@@ -1,3 +1,42 @@
+#about_me{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232323;
+    padding: 5vh 2vw;
+}
+
+#dev_image{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 #pasqua{
-    width: 35vh;
+    width: 400px;
+}
+
+#about_me .right-side{
+    max-width: 60%;
+    padding-left: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+}
+
+#about_me .right-side h2{
+    padding-bottom: 4vh;
+    font-size: 3.5em;
+    color: #008FFF;
+}
+
+#about_me .right-side p{
+    font-size: 1.5em;
+    margin-bottom: 1vh;
+    line-height: 3vh;
+}
+
+#about_me .right-side p b{
+    color: #008FFF;
+    cursor: pointer;
 }
