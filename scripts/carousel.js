@@ -8,10 +8,13 @@ const arrow_left = document.getElementById('arrow_left')
 const arrow_right = document.getElementById('arrow_right')
 
 //Counter
-let counter = 0;
+let counter = 1;
 const size = carousel_images[0].clientWidth + 16;
 
 //Carousel
+carousel_slide.style.transition = 'transform .2s ease-in-out'
+carousel_slide.style.transform = 'translateX(' + ( -size * counter ) + 'px)'
+
 carousel_slide.addEventListener('transitionend', ()=>{
     //Next
     if(counter >= carousel_images.length - 1){
@@ -38,7 +41,7 @@ let auto = true
 setInterval(() => {
     if(auto == true){
         counter++;
-        carousel_slide.style.transition = 'transform .4s ease-in-out'
+        carousel_slide.style.transition = 'transform .2s ease-in-out'
         carousel_slide.style.transform = 'translateX(' + ( -size * counter ) + 'px)'
     }
 }, 3000);
@@ -51,7 +54,7 @@ arrow_left.addEventListener('click', ()=>{
         counter = 0;
         return;
     }
-    carousel_slide.style.transition = 'transform .4s ease-in-out'
+    carousel_slide.style.transition = 'transform .2s ease-in-out'
     carousel_slide.style.transform = 'translateX(' + ( -size * counter ) + 'px)'
 })
 
@@ -62,6 +65,6 @@ arrow_right.addEventListener('click', ()=>{
         counter = carousel_images.length - 2;
         return;
     }
-    carousel_slide.style.transition = 'transform .4s ease-in-out'
+    carousel_slide.style.transition = 'transform .2s ease-in-out'
     carousel_slide.style.transform = 'translateX(' + ( -size * counter ) + 'px)'
 })
