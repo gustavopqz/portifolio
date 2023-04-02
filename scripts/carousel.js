@@ -1,7 +1,7 @@
 //Get elemets
 const carousel = document.getElementById('carousel')
 const carousel_slide = document.getElementById('carousel_slide')
-const carousel_images = document.querySelectorAll('#carousel_slide img')
+const carousel_images = Array.from(document.querySelectorAll('#carousel_slide img'))
 const presentation = document.querySelector('#enterprises .presentation h2')
 const window_width = window.innerWidth
 

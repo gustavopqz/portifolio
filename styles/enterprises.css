@@ -1,6 +1,6 @@
 #enterprises{
-    background-color: var(--myblack);
-    padding: 2em 8%;
+    background-image: url('../images/bg_dark_effect1.png');
+    padding: 2em 10% 2em 15%;
     display: flex;
     align-items: center;
     gap: 5vw;
