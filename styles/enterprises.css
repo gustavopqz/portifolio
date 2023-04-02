@@ -42,6 +42,26 @@
     border-radius: 10px;
 }
 
+#with_buttons{
+    display: flex;
+    align-items: center;
+}
+
+#arrow_right, #arrow_left{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 999;
+    border-radius: 4px;
+    transform: scale(0.8);
+    transition: ease .2s;
+}
+
+#arrow_right:hover, #arrow_left:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
 @media (max-width:1180px){
     #enterprises{
         flex-direction: column;
