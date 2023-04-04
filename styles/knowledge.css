@@ -1,0 +1,90 @@
+#knowledge{
+    display: flex;
+    background-color: var(--myblack2);
+}
+
+#knowledge .left-side{
+    width: 50%;
+}
+
+#knowledge .left-side div div img{
+    width: 100px;
+    border-radius: 4px;
+}
+
+#html{
+    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #e34c26 70%, #e34c26);
+    background-size: 100% 200%;
+    /*trasition effect for background*/
+    transition: background 1s;
+}
+  
+#html:hover {
+    background-position: 100% 100%;
+}
+
+#css{
+    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #2642e4 70%, #2642e4);
+    background-size: 100% 200%;
+    /*trasition effect for background*/
+    transition: background 1s;
+}
+
+#css:hover {
+    background-position: 100% 100%;
+}
+
+#javascript{
+    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #e3d026 70%, #e3d026);
+    background-size: 100% 200%;
+    /*trasition effect for background*/
+    transition: background 1s;
+}
+
+#javascript:hover{
+    background-position: 100% 100%;
+}
+
+#node{
+    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #3C873A 70%, #3C873A);
+    background-size: 100% 200%;
+    /*trasition effect for background*/
+    transition: background 1s;
+}
+
+#node:hover{
+    background-position: 100% 100%;
+}
+
+#python{
+    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #306998 88%, #FFE873);
+    background-size: 100% 400%;
+    /*trasition effect for background*/
+    transition: background 1s;
+}
+
+#python:hover{
+    background-position: 100% 100%;
+}
+
+#sql{
+    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #3AD37E 70%, #3AD37E);
+    background-size: 100% 200%;
+    /*trasition effect for background*/
+    transition: background 1s;
+}
+
+#sql:hover{
+    background-position: 100% 100%;
+}
+
+#mongodb{
+    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #3FA037 70%, #3FA037);
+    background-size: 100% 200%;
+    /*trasition effect for background*/
+    transition: background 1s;
+}
+
+#mongodb:hover{
+    background-position: 100% 100%;
+}
