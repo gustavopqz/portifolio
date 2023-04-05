@@ -1,102 +1,136 @@
 #knowledge{
-    display: flex;
-    background-color: var(--myblack);
     padding: 2em 10% 2em 15%;
 }
 
-#knowledge .left-side{
-    width: 50%;
-    display: flex;
-    align-items: center;
-}
-
-#knowledge .left-side h2{
-    font-size: 2.2vw;
+#knowledge .top-side h2{
+    font-size: 2.4vw;
     color: var(--myblue);
+    text-align: center;
 }
 
-#knowledge .right-side{
-    width: 50%;
+#knowledge .bottom-side{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    justify-content: center;
+    padding: 4em 0;
 }
 
-#knowledge .right-side div div img{
-    width: 100px;
-    border-radius: 4px;
+.knowledgeBox img{
+    max-width: 268px;
+    max-height: 268px;
+}
+
+.knowledgeBox{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    padding: 2em;
+    border-radius: 10px;
+    border: 1px solid currentColor;
+}
+
+.knowledgeBox h3{
+    letter-spacing: 2px;
+    color: #000;
 }
 
 #html{
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #e34c26 70%, #e34c26);
-    background-size: 100% 200%;
+    background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1s;
+    background-position: 100% 100%;
 }
   
 #html:hover {
-    background-position: 100% 100%;
+    background-position: 100% 255%;
 }
 
 #css{
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #2642e4 70%, #2642e4);
-    background-size: 100% 200%;
+    background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1s;
+    background-position: 100% 100%;
 }
 
 #css:hover {
-    background-position: 100% 100%;
+    background-position: 100% 255%;
 }
 
 #javascript{
-    background: linear-gradient(var(--myblack), var(--myblack) 50%, #e3d026 70%, #e3d026);
-    background-size: 100% 200%;
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #ad9e11 70%, #e3d026);
+    background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1s;
+    background-position: 100% 100%;
 }
 
 #javascript:hover{
-    background-position: 100% 100%;
+    background-position: 100% 255%;
 }
 
 #node{
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #3C873A 70%, #3C873A);
-    background-size: 100% 200%;
+    background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1s;
+    background-position: 100% 100%;
 }
 
 #node:hover{
-    background-position: 100% 100%;
+    background-position: 100% 255%;
 }
 
 #python{
-    background: linear-gradient(var(--myblack), var(--myblack) 50%, #306998 88%, #FFE873);
-    background-size: 100% 400%;
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #306998 70%, #FFE873);
+    background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1s;
+    background-position: 100% 100%;
 }
 
 #python:hover{
-    background-position: 100% 100%;
+    background-position: 100% 255%;
 }
 
 #sql{
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #3AD37E 70%, #3AD37E);
-    background-size: 100% 200%;
+    background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1s;
+    background-position: 100% 100%;
 }
 
 #sql:hover{
-    background-position: 100% 100%;
+    background-position: 100% 255%;
 }
 
 #mongodb{
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #3FA037 70%, #3FA037);
-    background-size: 100% 200%;
+    background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1s;
+    background-position: 100% 100%;
 }
 
 #mongodb:hover{
+    background-position: 100% 255%;
+}
+
+#wordpress{
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #015393 70%, #015393 70%);
+    background-size: 100% 270%;
+    /*trasition effect for background*/
+    transition: background 1.3s;
     background-position: 100% 100%;
+}
+
+#wordpress:hover{
+    background-position: 100% 255%;
 }
