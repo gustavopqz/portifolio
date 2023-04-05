@@ -1,19 +1,31 @@
 #knowledge{
     display: flex;
-    background-color: var(--myblack2);
+    background-color: var(--myblack);
+    padding: 2em 10% 2em 15%;
 }
 
 #knowledge .left-side{
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
-#knowledge .left-side div div img{
+#knowledge .left-side h2{
+    font-size: 2.2vw;
+    color: var(--myblue);
+}
+
+#knowledge .right-side{
+    width: 50%;
+}
+
+#knowledge .right-side div div img{
     width: 100px;
     border-radius: 4px;
 }
 
 #html{
-    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #e34c26 70%, #e34c26);
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #e34c26 70%, #e34c26);
     background-size: 100% 200%;
     /*trasition effect for background*/
     transition: background 1s;
@@ -24,7 +36,7 @@
 }
 
 #css{
-    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #2642e4 70%, #2642e4);
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #2642e4 70%, #2642e4);
     background-size: 100% 200%;
     /*trasition effect for background*/
     transition: background 1s;
@@ -35,7 +47,7 @@
 }
 
 #javascript{
-    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #e3d026 70%, #e3d026);
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #e3d026 70%, #e3d026);
     background-size: 100% 200%;
     /*trasition effect for background*/
     transition: background 1s;
@@ -46,7 +58,7 @@
 }
 
 #node{
-    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #3C873A 70%, #3C873A);
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #3C873A 70%, #3C873A);
     background-size: 100% 200%;
     /*trasition effect for background*/
     transition: background 1s;
@@ -57,7 +69,7 @@
 }
 
 #python{
-    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #306998 88%, #FFE873);
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #306998 88%, #FFE873);
     background-size: 100% 400%;
     /*trasition effect for background*/
     transition: background 1s;
@@ -68,7 +80,7 @@
 }
 
 #sql{
-    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #3AD37E 70%, #3AD37E);
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #3AD37E 70%, #3AD37E);
     background-size: 100% 200%;
     /*trasition effect for background*/
     transition: background 1s;
@@ -79,7 +91,7 @@
 }
 
 #mongodb{
-    background: linear-gradient(var(--myblack2), var(--myblack2) 50%, #3FA037 70%, #3FA037);
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #3FA037 70%, #3FA037);
     background-size: 100% 200%;
     /*trasition effect for background*/
     transition: background 1s;

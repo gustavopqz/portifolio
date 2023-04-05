@@ -1,0 +1,30 @@
+#myBusiness{
+    padding: 4em 10% 4em 15%;
+    display: flex;
+    align-items: center;
+    background-color: var(--myblack2);
+}
+
+#myBusiness .left-side{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#myBusiness .right-side{
+    width: 50%;
+}
+
+#myBusiness .right-side h2{
+    color: var(--myblue);
+    font-size: 2.3vw;
+    padding-bottom: 4vh;
+}
+
+#myBusiness .right-side ul li{
+    font-size: 1.8vw;
+    list-style: circle;
+    margin-left: 2.5vw;
+    letter-spacing: 2px;
+    padding-bottom: .5vh;
+}
