@@ -9,10 +9,12 @@
     width: 40%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 #pasqua{
     width: 400px;
+    max-height: 400px;
 }
 
 #about_me .right-side{

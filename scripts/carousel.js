@@ -39,12 +39,16 @@ carousel_slide.addEventListener('transitionend', ()=>{
 let auto = true
 
 setInterval(() => {
+    if(counter >= carousel_images.length - 1){
+        counter = carousel_images.length - 2;
+        return;
+    }
     if(auto == true){
         counter++;
         carousel_slide.style.transition = 'transform .2s ease-in-out'
         carousel_slide.style.transform = 'translateX(' + ( -size * counter ) + 'px)'
     }
-}, 3000);
+}, 5000);
 
 //Arrows
 arrow_left.addEventListener('click', ()=>{
