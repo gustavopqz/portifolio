@@ -1,0 +1,21 @@
+.division{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    background-color: var(--myblue);
+    border-radius: 1em;
+}
+
+.line{
+    width: 100px;
+    height: 8px;
+    background-color: var(--myblue);
+    border-radius: 1em;
+}

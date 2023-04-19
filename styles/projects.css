@@ -3,7 +3,7 @@
     background-color: var(--myblack2);
 }
 
-#projects .top-side h2{
+#projects .top-side{
     text-align: center;
     color: var(--myblue);
     font-size: 2.4vw;
