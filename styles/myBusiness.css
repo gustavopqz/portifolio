@@ -6,13 +6,18 @@
 }
 
 #myBusiness .left-side{
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
 }
 
 #myBusiness .right-side{
-    width: 50%;
+    width: 55%;
+}
+
+#automatize_logo{
+    transform: scale(1.2);
+    border-radius: 20em;
 }
 
 #myBusiness .right-side h2{
@@ -24,22 +29,50 @@
 
 #services{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 2%;
 }
 
 .service{
-    width: 48%;
+    width: 49%;
     height: 15em;
     list-style: none;
-    border: 1px solid #fff;    
+    border: 1px solid var(--myblue);    
     margin-bottom: 2%;
+    border-radius: 4px;
+    padding: 1em;
+    background-color: var(--myblack);
+    box-shadow: 0 0 10px #00000090;
+    cursor: default;
+    transition: ease .1s;
+}
+
+.service:hover{
+    transform: scale(1.01);
 }
 
 .service h3{
     font-size: 1.7em;
+    text-align: center;
 }
 
 .service p{
-    font-size: 1.5em;
+    font-size: 1.2em;
+    text-align: justify;
+    padding-top: .5em;
+}
+
+.businessHr{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.blue{
+    color: var(--myblue);
+}
+
+#linkInstituto{
+    text-decoration: underline var(--myblue);
+    transition: ease .2s;
 }
