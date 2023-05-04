@@ -16,3 +16,7 @@ body{
     --myblack2: #232323;
     --mygray: #dddddd;
 }
+
+.blue{
+    color: var(--myblue);
+}

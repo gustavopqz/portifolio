@@ -1,10 +1,10 @@
 #knowledge{
     padding: 4em 10% 2em 15%;
+    background-color: var(--myblack2);
 }
 
 #knowledge .top-side h2{
     font-size: 2.4vw;
-    color: var(--myblue);
     text-align: center;
 }
 
@@ -19,6 +19,7 @@
 .knowledgeBox img{
     max-width: 190px;
     max-height: 190px;
+    width: 9.5vw;
 }
 
 .knowledgeBox{
