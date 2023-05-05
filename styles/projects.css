@@ -18,18 +18,29 @@
 .project-left{
     display: flex;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .project-right{
     display: flex;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
-.presentation{
+.project-left .presentation{
     display: flex;
     flex-direction: column;
+    border-right: 2px solid #ffffff;
+    padding-right: 2em;
+    padding-top: 2.02em;
+}
+
+.project-right .presentation{
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #ffffff;
+    padding-left: 2em;
+    padding-top: 2.02em;
 }
 
 .presentation img{
@@ -52,7 +63,6 @@
 
 .description-left{
     padding: 5% 0 5% 1em;
-    border-left: 2px solid #ffffff;
     margin-left: 2em;
     margin-bottom: 2em;
 }
@@ -68,8 +78,17 @@
 }
 
 .description-right{
-    padding: 15% 1em 15% 0;
-    border-right: 2px solid #ffffff;
+    padding: 5% 1em 5% 0;
     margin-right: 2em;
     margin-bottom: 2em;
+}
+
+.description-right h3{
+    font-size: 2em;
+}
+
+.description-right p{
+    font-size: 1.3em;
+    margin-top: .5em;
+    text-align: justify;
 }
