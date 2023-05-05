@@ -44,7 +44,6 @@
     padding: 1em;
     background-color: var(--myblack2);
     box-shadow: 0 0 10px #00000090;
-    /* box-shadow: 0 0 1px var(--myblue); */
     cursor: default;
     transition: ease .1s;
     display: flex;
