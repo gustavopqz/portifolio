@@ -1,4 +1,29 @@
-#contacts .top-side h2{
+#contacts{
+    padding-bottom: 5em;
+}
+#contacts .top-side{
+    margin-top: 2%;
+    width: 100%;
     font-size: 2.4vw;
     text-align: center;
+}
+
+#media-images{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+#media-images li{
+    list-style: none;
+}
+
+#media-images li img{
+    max-width: 150px;
+    transition: ease .3s;
+}
+
+#media-images li img:hover{
+    scale: 1.05;
 }
