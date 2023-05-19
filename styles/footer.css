@@ -1,0 +1,16 @@
+#footer{
+    background-color: var(--myblack2);
+    display: flex;
+}
+
+#footer .right-side{
+    display: flex;
+    align-items: center;
+    padding: 2em 15%;
+}
+
+#footerLogo{
+    border-right: 1px solid #ffffff;
+    padding-right: 2em;
+    margin-right: 2em;
+}
