@@ -81,6 +81,7 @@
     padding: 5% 1em 5% 0;
     margin-right: 2em;
     margin-bottom: 2em;
+    min-width: 30vw;
 }
 
 .description-right h3{

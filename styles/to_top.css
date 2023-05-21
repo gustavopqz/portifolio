@@ -1,0 +1,15 @@
+#to_top{
+    position: fixed;
+    bottom: 3em;
+    right: 1em;
+    width: 60px;
+    border-radius: 10px;
+    background: var(--myblue);
+    padding: .5em;
+    transition: .3s ease;
+}
+
+#to_top:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
