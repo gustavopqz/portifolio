@@ -24,3 +24,7 @@ body{
 .blue{
     color: var(--myblue);
 }
+
+a{
+    text-decoration: none;
+}
