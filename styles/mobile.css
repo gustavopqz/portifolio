@@ -73,11 +73,12 @@
     }
 
 
-    #to_top, #enterprises, #knowledge, #myBusiness, #projects, #contacts, footer{
+    #to_top, #knowledge, #myBusiness, #projects, #contacts, footer{
         display: none;
     }
 }
 
+/* About me */
 @media (max-width: 1040px){
     #about_me{
         flex-direction: column;
@@ -108,3 +109,15 @@
     }
 }
 
+/* Enterprises */
+@media (max-width: 1040px){
+    #enterprises{
+        padding: 0 2%;
+    }
+
+    #enterprises .presentation h2{
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 1em;
+    }
+}
