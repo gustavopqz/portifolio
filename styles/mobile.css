@@ -1,5 +1,5 @@
 /* Header */
-@media (max-width:1040px){
+@media (max-width: 768px){
     header{
         flex-direction: column;
         padding: 0;
@@ -91,7 +91,7 @@
     }
 
     #pasqua{
-        width: 70vw;
+        max-width: 70vw;
     }
 
     #about_me .right-side{
@@ -119,5 +119,22 @@
         font-size: 2rem;
         text-align: center;
         padding-top: 1em;
+    }
+
+    #with_buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #arrow_left, #arrow_right{
+        display: none;
+    }
+
+    #phoneArrows{
+        margin-top: 1em;
+    }
+
+    #phoneArrows img{
+        max-width: 60px;
     }
 }
