@@ -120,6 +120,7 @@
 
     #carousel img{
         max-height: 80vh;
+        filter: grayscale(0%);
     }
 
     #enterprises .presentation h2{
