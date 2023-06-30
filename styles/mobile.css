@@ -109,7 +109,6 @@
     display: none;
 }
 @media (max-width: 1040px){
-    
     #enterprises{
         padding: 0 2%;
         flex-direction: column;
@@ -117,6 +116,10 @@
 
     #carousel{
         max-width: 370px;
+    }
+
+    #carousel img{
+        max-height: 80vh;
     }
 
     #enterprises .presentation h2{

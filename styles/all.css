@@ -28,3 +28,8 @@ body{
 a{
     text-decoration: none;
 }
+
+.instagramPost{
+    color: var(--myblue);
+    text-decoration: underline;
+}
