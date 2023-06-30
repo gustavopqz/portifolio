@@ -71,11 +71,6 @@
     #contact{
         width: 40%;
     }
-
-
-    #to_top, #knowledge, #myBusiness, #projects, #contacts, footer{
-        display: none;
-    }
 }
 
 /* About me */
@@ -110,15 +105,28 @@
 }
 
 /* Enterprises */
+#phoneArrows{
+    display: none;
+}
 @media (max-width: 1040px){
+    
     #enterprises{
         padding: 0 2%;
+        flex-direction: column;
+    }
+
+    #carousel{
+        max-width: 370px;
     }
 
     #enterprises .presentation h2{
         font-size: 2rem;
         text-align: center;
         padding-top: 1em;
+    }
+
+    #phoneArrows{
+        display: block;
     }
 
     #with_buttons{
@@ -136,5 +144,28 @@
 
     #phoneArrows img{
         max-width: 60px;
+    }
+}
+
+#to_top, #myBusiness, #projects, #contacts, footer{
+    display: none;
+}
+
+/* Knowledge */
+@media (max-width: 1040px){
+    #knowledge .top-side h2{
+        font-size: 2em;
+    }
+    
+    .knowledgeBox{
+        width: 40%;
+    }
+
+    .knowledgeBox img{
+        width: 100px;
+    }
+
+    .knowledgeBox h3{
+        font-size: 0.8em;
     }
 }

@@ -61,12 +61,3 @@
     cursor: pointer;
 }
 
-@media (max-width:1180px){
-    #enterprises{
-        flex-direction: column;
-    }
-    #carousel{
-        max-width: 370px;
-    }
-}
-
