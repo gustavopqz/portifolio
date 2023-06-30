@@ -147,18 +147,19 @@
     }
 }
 
-#to_top, #myBusiness, #projects, #contacts, footer{
-    display: none;
-}
-
 /* Knowledge */
 @media (max-width: 1040px){
+    #knowledge{
+        padding: 0;
+    }
+
     #knowledge .top-side h2{
         font-size: 2em;
+        padding-top: 1em;
     }
     
     .knowledgeBox{
-        width: 40%;
+        width: 45%;
     }
 
     .knowledgeBox img{
@@ -167,5 +168,140 @@
 
     .knowledgeBox h3{
         font-size: 0.8em;
+    }
+}
+
+/* MyBusiness */
+@media (max-width: 1040px){
+    #myBusiness{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #myBusiness .right-side h2{
+        font-size: 2em;
+        padding-top: 1em;
+    }
+
+    #automatize_logo{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 1em;
+    }
+
+    #myBusiness .left-side{
+        padding-top: 1em;
+        width: 80%;
+    }
+
+    #myBusiness .right-side{
+        width: 100%;
+        padding-inline: 1em;
+    }
+
+    .service{
+        width: 100%;
+    }
+
+    #services{
+        gap: 1em;
+    }
+}
+
+/* Projects */
+@media (max-width: 1040px){
+    #projects{
+        padding: 0;
+    }
+
+    #projects .top-side{
+        font-size: 2em;
+        padding: 1em .5em 0 .5em;
+    }
+
+    .project-left{
+        flex-direction: column;
+    }
+
+    .project-right{
+        flex-direction: column-reverse;
+    }
+
+    .project-left .presentation{
+        border: none;
+        padding: 0;
+    }
+
+    .project-right .presentation{
+        border: none;
+        padding: 0;
+    }
+
+    .presentation img{
+        max-width: 90vw;
+        border: 2px solid #ffffff;
+        border-radius: 10px;
+    }
+
+    .description-left{
+        padding: 0;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+    
+    .description-left h3{
+        font-size: 1.6em;
+        text-align: center;
+    }
+    
+    .description-left p{
+        font-size: 1.3em;
+        margin-top: .5em;
+        text-align: justify;
+    }
+    
+    .description-right{
+        padding: 0;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+    
+    .description-right h3{
+        font-size: 1.6em;
+        text-align: center;
+    }
+    
+    .description-right p{
+        font-size: 1.3em;
+        margin-top: .5em;
+        text-align: justify;
+    }
+}
+
+/* Contacts */
+@media (max-width: 1040px){
+    #contacts .top-side{
+        margin-top: 1em;
+        width: 100%;
+        font-size: 2em;
+    }
+
+    #media-images li img{
+        max-width: 60px;
+    }
+}
+
+/* footer */
+@media (max-width: 1040px){
+    footer{
+        padding: 0;
+        font-size: .8em;
+    }
+}
+/* to top */
+@media (max-width: 1040px){
+    #to_top{
+        bottom: 2em;
+        width: 50px;
     }
 }

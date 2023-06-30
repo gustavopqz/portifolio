@@ -93,3 +93,8 @@
     margin-top: .5em;
     text-align: justify;
 }
+
+#instagramPost{
+    color: var(--myblue);
+    text-decoration: underline;
+}
