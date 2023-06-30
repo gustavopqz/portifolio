@@ -6,6 +6,8 @@ const presentation = document.querySelector('#enterprises .presentation h2')
 const window_width = window.innerWidth
 const arrow_left = document.getElementById('arrow_left')
 const arrow_right = document.getElementById('arrow_right')
+const arrow_left_mobile = document.getElementById('arrow_left_mobile')
+const arrow_right_mobile = document.getElementById('arrow_right_mobile')
 
 //Counter
 let counter = 1;
@@ -51,18 +53,20 @@ setInterval(() => {
 }, 5000);
 
 //Arrows
-arrow_left.addEventListener('click', ()=>{
-    auto = false
-    counter--;
-    if(counter < 0){
-        counter = 0;
-        return;
-    }
-    carousel_slide.style.transition = 'transform .2s ease-in-out'
-    carousel_slide.style.transform = 'translateX(' + ( -size * counter ) + 'px)'
-})
+function arrowLeft(){
+        auto = false
+        counter--;
+        if(counter < 0){
+            counter = 0;
+            return;
+        }
+        carousel_slide.style.transition = 'transform .2s ease-in-out'
+        carousel_slide.style.transform = 'translateX(' + ( -size * counter ) + 'px)'
+}
+arrow_left.addEventListener('click', arrowLeft)
+arrow_left_mobile.addEventListener('click', arrowLeft)
 
-arrow_right.addEventListener('click', ()=>{
+function arrowRight(){
     auto = false
     counter++;
     if(counter >= carousel_images.length - 1){
@@ -71,4 +75,6 @@ arrow_right.addEventListener('click', ()=>{
     }
     carousel_slide.style.transition = 'transform .2s ease-in-out'
     carousel_slide.style.transform = 'translateX(' + ( -size * counter ) + 'px)'
-})
+}
+arrow_right.addEventListener('click', arrowRight)
+arrow_right_mobile.addEventListener('click', arrowRight)
