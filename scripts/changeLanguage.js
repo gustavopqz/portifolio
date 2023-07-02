@@ -1,6 +1,8 @@
 function changeToEnglish(){
     const header = document.querySelectorAll('nav ul li a')
     const greeting = document.querySelector('#greeting .left-side').children
+    const curriculum = document.querySelector('#curriculum')
+    const contact = document.querySelector('#contact')
     const about_me =  document.querySelector('#about_me .right-side').children
     const enterprises = document.querySelector('#enterprises .presentation h2')
     const knowledge = document.querySelector('#knowledge .top-side h2')
@@ -12,6 +14,7 @@ function changeToEnglish(){
     const descriptionnRight = document.querySelectorAll('.description-right')
     const contacts = document.querySelector('#contacts .top-side')
     const footer = document.querySelector('footer')
+
     // Header
     header[0].textContent = 'About me'
     header[1].textContent = 'Clients'
@@ -23,6 +26,8 @@ function changeToEnglish(){
     // Greeting
     greeting[0].textContent = "Hi, my name's"
     greeting[2].textContent = 'Fullstack developer and microentrepreneur'
+    curriculum.textContent = 'Curriculum'
+    contact.textContent = 'Contact me'
 
     // About me
     about_me[0].outerHTML = '<h2>About <b class="blue">me</b></h2>'
