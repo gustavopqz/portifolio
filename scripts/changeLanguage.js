@@ -1,4 +1,8 @@
+let english = false
+
 function changeToEnglish(){
+    english = true
+
     const header = document.querySelectorAll('nav ul li a')
     const greeting = document.querySelector('#greeting .left-side').children
     const curriculum = document.querySelector('#curriculum')
@@ -77,6 +81,8 @@ function changeToEnglish(){
 }
 
 function changeToPortuguese(){
+    english = false
+
     const body = document.querySelector('body')
     body.innerHTML = 
     `<header id="header">
@@ -103,7 +109,7 @@ function changeToPortuguese(){
         <h1>Gustavo <p>Pasqua</p></h1>
         <h2>Desenvolvedor Fullstack e Microempreendedor</h2>
         <div id="greeting_buttons">
-            <a id="curriculum" href="./CV - GUSTAVO PASQUA.pdf" target="_blank">Currículo</a>
+            <a id="curriculum" target="_blank" onclick="disabledAdvice()">Currículo</a>
             <a id="contact" href="#contacts">Entre em contato</a>
         </div>
     </article>
@@ -324,4 +330,12 @@ function changeToPortuguese(){
 <footer>&copy; Copyright 2023 Automatize. Todos os direitos reservados.</footer>
 
 <a href="#header"><img id="to_top" src="./images/to_top.png" alt="Voltar ao topo"></a>`
+}
+
+function disabledAdvice(){
+    if(english){
+        window.alert('Disabled!');
+    }else{
+        window.alert('Desabilitado no momento!');
+    }
 }
