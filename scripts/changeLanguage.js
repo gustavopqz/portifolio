@@ -32,7 +32,7 @@ function changeToEnglish(){
     // About me
     about_me[0].outerHTML = '<h2>About <b class="blue">me</b></h2>'
     about_me[1].outerHTML = '<p><b>Gustavo Pasqua de Queiroz</b>, was born in 1999, in the programming world since 2017!</p>'
-    about_me[2].outerHTML = '<p>Currently hired by <a href="https://gruponobre.edu.br/" target="_blank"><b>Grupo Nobre at Feira de Santana</b></a> acting as developer in colleges <a href="https://unef.edu.br/" target="_blank"><b>UNEF</b></a> and <a href="https://unifan.net.br/" target="_blank"><b>UNIFAN</b></a>, in schools <a href="https://www.colegionobre.com.br/" target="_blank"><b>Nobre</b></a> and <a href="https://feiradesantana.maplebear.com.br/pt/?utm_source=google&utm_medium=cpc&utm_campaign=regional_seach_escolas_nordeste&utm_content=search_fev2023&gad=1&gclid=CjwKCAjwpayjBhAnEiwA-7ena7Q4piRnL9PS4FUrFYRt2VTq-pYsCnkh19MRTTG8DHwKD1F2PZ5FshoCR3oQAvD_BwE" target="_blank"><b>Maple Bear</b></a>, in atletic association of <a href="https://www.bahiadefeira.com.br/" target="_blank"><b>Bahia de Feira</b></a> and in medic group <a href="https://www.uniaomedica.com.br/" target="_blank"><b>União Médica.</b></a></p>'
+    about_me[2].outerHTML = '<p>Currently hired by <a href="https://devit.com.br/" target="_blank"><b>DevIT Solutions</b></a> acting as a fullstack developer </p>'
     about_me[3].outerHTML = '<p>Individual microentrepreneur by <b>Automatize!</b> - Website design and automation softwares.</p>'
     about_me[4].outerHTML = '<p>Self-taught bilingual.</p>'
 
