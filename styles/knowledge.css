@@ -90,15 +90,15 @@
     background-position: 100% 255%;
 }
 
-#python{
-    background: linear-gradient(var(--myblack), var(--myblack) 50%, #306998 70%, #FFE873);
+#angular{
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #AA24EF 70%, #EF0C45);
     background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1s;
     background-position: 100% 99%;
 }
 
-#python:hover{
+#angular:hover{
     background-position: 100% 255%;
 }
 
@@ -126,15 +126,15 @@
     background-position: 100% 255%;
 }
 
-#wordpress{
-    background: linear-gradient(var(--myblack), var(--myblack) 50%, #015393 70%, #015393 70%);
+#delphi{
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #9E0F20 70%, #9E0F20 70%);
     background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1.3s;
     background-position: 100% 99%;
 }
 
-#wordpress:hover{
+#delphi:hover{
     background-position: 100% 255%;
 }
 
