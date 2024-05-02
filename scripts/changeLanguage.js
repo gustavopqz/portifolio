@@ -180,9 +180,9 @@ function changeToPortuguese(){
             <img src="./images/node.png" alt="node">
             <h3>NODEJS</h3>
         </div>
-        <div id="python" class="knowledgeBox">
-            <img src="./images/python.png" alt="python">
-            <h3>PYTHON</h3>
+        <div id="angular" class="knowledgeBox">
+            <img src="./images/angular.png" alt="angular">
+            <h3>ANGULAR</h3>
         </div>
         <div id="sql" class="knowledgeBox">
             <img src="./images/sql.png" alt="sql">
@@ -192,9 +192,9 @@ function changeToPortuguese(){
             <img src="./images/mongodb.png" alt="mongodb">
             <h3>MONGODB</h3>
         </div>
-        <div id="wordpress" class="knowledgeBox">
-            <img src="./images/wordpress.png" alt="wordpress">
-            <h3>WORDPRESS</h3>
+        <div id="delphi" class="knowledgeBox">
+            <img src="./images/delphi.png" alt="delphi">
+            <h3>DELPHI</h3>
         </div>
         <div id="git" class="knowledgeBox">
             <img src="./images/git.png" alt="git">
