@@ -126,15 +126,27 @@
     background-position: 100% 255%;
 }
 
-#delphi{
-    background: linear-gradient(var(--myblack), var(--myblack) 50%, #9E0F20 70%, #9E0F20 70%);
+#python{
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #FFE873 40%, #306998);
     background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1.3s;
     background-position: 100% 99%;
 }
 
-#delphi:hover{
+#python:hover{
+    background-position: 100% 255%;
+}
+
+#csharp{
+    background: linear-gradient(var(--myblack), var(--myblack) 50%, #A27ADD 70%, #230068);
+    background-size: 100% 270%;
+    /*trasition effect for background*/
+    transition: background 1.3s;
+    background-position: 100% 99%;
+}
+
+#csharp:hover{
     background-position: 100% 255%;
 }
 
