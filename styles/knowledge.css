@@ -1,14 +1,14 @@
-#knowledge{
+#knowledge {
     padding: 4em 10% 2em 15%;
     background-color: var(--myblack2);
 }
 
-#knowledge .top-side h2{
+#knowledge .top-side h2 {
     font-size: 2.4vw;
     text-align: center;
 }
 
-#knowledge .bottom-side{
+#knowledge .bottom-side {
     display: flex;
     flex-wrap: wrap;
     gap: 2.5vw;
@@ -16,13 +16,13 @@
     padding: 4em 0;
 }
 
-.knowledgeBox img{
+.knowledgeBox img {
     max-width: 140px;
     max-height: 140px;
     width: 8.5vw;
 }
 
-.knowledgeBox{
+.knowledgeBox {
     width: 14%;
     min-height: 30vh;
     display: flex;
@@ -37,24 +37,24 @@
     border: 1px solid currentColor;
 }
 
-.knowledgeBox h3{
+.knowledgeBox h3 {
     letter-spacing: 2px;
     color: #000;
 }
 
-#html{
+#html {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #e34c26 70%, #e34c26);
     background-size: 100% 270%;
     /*trasition effect for background*/
     transition: background 1s;
     background-position: 100% 99%;
 }
-  
+
 #html:hover {
     background-position: 100% 255%;
 }
 
-#css{
+#css {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #2642e4 70%, #2642e4);
     background-size: 100% 270%;
     /*trasition effect for background*/
@@ -66,7 +66,7 @@
     background-position: 100% 255%;
 }
 
-#javascript{
+#javascript {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #ad9e11 70%, #e3d026);
     background-size: 100% 270%;
     /*trasition effect for background*/
@@ -74,11 +74,11 @@
     background-position: 100% 99%;
 }
 
-#javascript:hover{
+#javascript:hover {
     background-position: 100% 255%;
 }
 
-#node{
+#node {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #3C873A 70%, #3C873A);
     background-size: 100% 270%;
     /*trasition effect for background*/
@@ -86,11 +86,11 @@
     background-position: 100% 99%;
 }
 
-#node:hover{
+#node:hover {
     background-position: 100% 255%;
 }
 
-#angular{
+#angular {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #AA24EF 70%, #EF0C45);
     background-size: 100% 270%;
     /*trasition effect for background*/
@@ -98,11 +98,11 @@
     background-position: 100% 99%;
 }
 
-#angular:hover{
+#angular:hover {
     background-position: 100% 255%;
 }
 
-#sql{
+#sql {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #3AD37E 70%, #3AD37E);
     background-size: 100% 270%;
     /*trasition effect for background*/
@@ -110,11 +110,11 @@
     background-position: 100% 99%;
 }
 
-#sql:hover{
+#sql:hover {
     background-position: 100% 255%;
 }
 
-#mongodb{
+#mongodb {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #3FA037 70%, #3FA037);
     background-size: 100% 270%;
     /*trasition effect for background*/
@@ -122,11 +122,11 @@
     background-position: 100% 99%;
 }
 
-#mongodb:hover{
+#mongodb:hover {
     background-position: 100% 255%;
 }
 
-#python{
+#docker {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #FFE873 40%, #306998);
     background-size: 100% 270%;
     /*trasition effect for background*/
@@ -134,11 +134,15 @@
     background-position: 100% 99%;
 }
 
-#python:hover{
+#docker img {
+    width: 512px;
+}
+
+#docker:hover {
     background-position: 100% 255%;
 }
 
-#nestjs{
+#nestjs {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #ffffff 60%, #a00b0b);
     background-size: 100% 270%;
     /*trasition effect for background*/
@@ -146,11 +150,11 @@
     background-position: 100% 99%;
 }
 
-#nestjs:hover{
+#nestjs:hover {
     background-position: 100% 255%;
 }
 
-#git{
+#git {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #E44C30 70%, #E44C30 70%);
     background-size: 100% 270%;
     /*trasition effect for background*/
@@ -158,11 +162,11 @@
     background-position: 100% 99%;
 }
 
-#git:hover{
+#git:hover {
     background-position: 100% 255%;
 }
 
-#github{
+#github {
     background: linear-gradient(var(--myblack), var(--myblack) 50%, #ffffff 70%, #ffffff 70%);
     background-size: 100% 270%;
     /*trasition effect for background*/
@@ -170,6 +174,6 @@
     background-position: 100% 99%;
 }
 
-#github:hover{
+#github:hover {
     background-position: 100% 255%;
 }
